@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  color: #555;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.wrapper {
+  width: 1300px;
+  height: 200px;
+  background: tomato;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.container {
+  height: 90%;
+  background: salmon;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.box {
+  width: 250px;
+  height: 90%;
+  margin: 10px;
+  background: white;
+  display: flex;
+  align-items: center;
+}
+
+#box1 {
+  background-image: url("sunset.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box2 {
+  background-image: url("fish.png");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box3 {
+  background-image: url("onigiri.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box4 {
+  background-image: url("pakuseroi.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box5 {
+  background-image: url("chandehi.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box6 {
+  background-image: url("hiroyuki.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box7 {
+  background-image: url("hikaru.png");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box8 {
+  background-image: url("nakajou.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box9 {
+  background-image: url("choiso.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
+
+#box10 {
+  background-image: url("emirin.jpg");
+  background-size: cover;
+  object-fit: cover;
+}
